@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/DataStructure/out/build/x64-Debug (默认值)/07_Graph/04_DFSandBFS/CMakeFiles/04_DFSandBFS.dir/embed.manifest"

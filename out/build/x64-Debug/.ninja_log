@@ -1,0 +1,6 @@
+# ninja log v5
+3	532	620583237	02_LinearList/01_SqList/CMakeFiles/01_SqList.dir/SqList.c.obj	48f93ac89e93bbc9
+0	538	620583237	02_LinearList/01_SqList/CMakeFiles/01_SqList.dir/main.c.obj	d87f0a55f60bb8a3
+539	802	620583238	02_LinearList/01_SqList/01_SqList.exe	ad80babac9c124ad
+1	217	620583334	02_LinearList/01_SqList/CMakeFiles/01_SqList.dir/SqList.c.obj	48f93ac89e93bbc9
+217	360	620583334	02_LinearList/01_SqList/01_SqList.exe	ad80babac9c124ad

@@ -1,0 +1,412 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "01_Introduction",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "01_Introduction"
+				},
+				{
+					"build" : "02_LinearList",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "02_LinearList"
+				},
+				{
+					"build" : "02_LinearList/01_SqList",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "02_LinearList/01_SqList",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "02_LinearList/07_LinkQueue",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "02_LinearList/07_LinkQueue",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "03_Stack_Queue",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "03_Stack_Queue"
+				},
+				{
+					"build" : "04_String",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "04_String"
+				},
+				{
+					"build" : "05_Array_GList",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "05_Array_GList"
+				},
+				{
+					"build" : "06_Tree_BinaryTree",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "06_Tree_BinaryTree"
+				},
+				{
+					"build" : "07_Graph",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "07_Graph"
+				},
+				{
+					"build" : "07_Graph/01_MGraph",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 10,
+					"source" : "07_Graph/01_MGraph",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "07_Graph/02_ALGraph",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 11,
+					"source" : "07_Graph/02_ALGraph",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "07_Graph/03_OLGraph",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 12,
+					"source" : "07_Graph/03_OLGraph",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "07_Graph/07_MinimumSpanningTree",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 13,
+					"source" : "07_Graph/07_MinimumSpanningTree",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "01_Introduction",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "02_LinearList",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "01_SqList",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "07_LinkQueue",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "03_Stack_Queue",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "04_String",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "05_Array_GList",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "06_Tree_BinaryTree",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13
+					],
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "07_Graph",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "01_MGraph",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "02_ALGraph",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "03_OLGraph",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "07_MinimumSpanningTree",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "01_MGraph::@6750f8dd90032c0840ce",
+					"jsonFile" : "target-01_MGraph-Debug-e737caf217e6066d758c.json",
+					"name" : "01_MGraph",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "01_SqList::@ca87bc6f546fdc13b421",
+					"jsonFile" : "target-01_SqList-Debug-a38220ed79a3a81b8826.json",
+					"name" : "01_SqList",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "02_ALGraph::@ca59a52423cffae32986",
+					"jsonFile" : "target-02_ALGraph-Debug-068e4508304ac4940364.json",
+					"name" : "02_ALGraph",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "03_OLGraph::@efb7387c6ad649e008ce",
+					"jsonFile" : "target-03_OLGraph-Debug-f3935786280dbb81d548.json",
+					"name" : "03_OLGraph",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "07_LinkQueue::@769b0a8f1a1740ebf5d9",
+					"jsonFile" : "target-07_LinkQueue-Debug-35046f9d50b8ad6919b6.json",
+					"name" : "07_LinkQueue",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "07_MinimumSpanningTree::@7c0e335f5c48637a2c12",
+					"jsonFile" : "target-07_MinimumSpanningTree-Debug-c29bb4a5a4e6ab410f6f.json",
+					"name" : "07_MinimumSpanningTree",
+					"projectIndex" : 13
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/lushunzhi/source/repos/DataStructure/out/build/x64-Debug",
+		"source" : "C:/Users/lushunzhi/source/repos/DataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
